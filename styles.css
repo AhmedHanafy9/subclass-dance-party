@@ -3,19 +3,23 @@ body, html{
 }
 body{
   margin: 0px;
+  background-image: url('../assets/2002.jpg');
   background-color:#444;
+  background-size: cover;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineUpButton{
   padding:5px 12px;
   float:right;
 }
 .topbar{
   height:32px;
   background-color: #555;
+  display: flex;
+  justify-content: center;
 }
 .title{
   background-color: #777;
@@ -25,3 +29,16 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+#astleyDancer{
+  background-image: url('../assets/astley.png');
+  background-size: cover;
+  border: 0px;
+}
+
+#amogusDancer {
+  background-image: url('../assets/amogus.gif');
+  background-size: cover;
+  border: 0px;
+}
+
